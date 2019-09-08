@@ -16,6 +16,8 @@ COPY . .
 RUN npm run build
 
 FROM nginx
+# required for Beanstalk -> uses as a port for mapping incoming trafic
+EXPOSE 80
 
 COPY --from=builder /app/build /usr/share/nginx/html
 
