@@ -12,6 +12,7 @@ function App() {
           <h2>ДДДДДДДДДДДДДДДДДДДДД</h2>
           <h1>LUDNICA</h1>
         </p>
+        Le wtf ?
         <a
           className="App-link"
           href="https://reactjs.org"
